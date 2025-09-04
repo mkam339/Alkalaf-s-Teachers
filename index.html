@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>مدارس القلاف — هيئة التدريس (20 بطاقة)</title>
+  <meta name="description" content="قائمة المعلمين — 20 بطاقة جاهزة بالاسم والتخصص والصورة لربطها بالموقع الأساسي." />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{
+      --primary:#0E9F6E; /* أخضر أنيق */
+      --text:#111827;
+    }
+    body{ font-family:'Tajawal', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; color:var(--text); background:#fff; }
+    .card-shadow{ box-shadow:0 10px 30px rgba(2,6,23,0.06); }
+  </style>
+</head>
+<body class="min-h-screen bg-white">
+  <!-- ========== ملاحظات التحرير =========
+    * لتعديل بيانات كل معلم:
+      - غيّر النص داخل <h3> إلى اسم المعلم.
+      - غيّر النص داخل <p class="subject"> إلى اسم التخصص/المادة.
+      - ضع رابط الصورة داخل خاصية src لعنصر <img> (يفضل 600x450 أو 4:3).
+    * جميع البطاقات بنفس التنسيق—هناك 20 بطاقة مرقمة ليسهل التحرير.
+    * يمكنك ربط هذه الصفحة من موقعك الأساسي (مثلاً: teachers.html).
+  ====================================== -->
+
+  <header class="border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 select-none">
+        <div class="w-10 h-10 rounded-2xl grid place-items-center text-white" style="background:var(--primary)">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 6.5C3 5.1 4.1 4 5.5 4h5C12.9 4 14 5.1 14 6.5V19c0-1.38-1.1-2.5-2.5-2.5h-6C4.1 16.5 3 17.62 3 19V6.5z"/><path d="M21 6.5C21 5.1 19.9 4 18.5 4h-5C12.1 4 11 5.1 11 6.5V19c0-1.38 1.1-2.5 2.5-2.5h5c1.4 0 2.5 1.12 2.5 2.5V6.5z"/></svg>
+        </div>
+        <div>
+          <div class="text-xl font-extrabold tracking-wide" style="color:var(--primary)">مدارس القلاف الأهلية الثانوية</div>
+          <div class="text-xs text-gray-500">هيئة التدريس</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-4 text-sm">
+        <a class="text-gray-700 hover:text-black" href="index.html">العودة للموقع الرئيسي</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="flex items-end justify-between gap-4 mb-6">
+      <div>
+        <h1 class="text-2xl sm:text-3xl font-extrabold">هيئة التدريس</h1>
+        <p class="text-gray-500">20 بطاقة — عدّل الاسم، التخصص، والصورة لكل معلم.</p>
+      </div>
+    </div>
+
+    <!-- شبكة البطاقات: 20 بطاقة -->
+    <ul class="grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <!-- بطاقة قالب قابلة للتكرار -->
+      <!-- بطاقة 01 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 01" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 01</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 02 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 02" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 02</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 03 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 03" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 03</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 04 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 04" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 04</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 05 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 05" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 05</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 06 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 06" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 06</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 07 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 07" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 07</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 08 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 08" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 08</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 09 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 09" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 09</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 10 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 10" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 10</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 11 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 11" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 11</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 12 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 12" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 12</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 13 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 13" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 13</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 14 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 14" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 14</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 15 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 15" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 15</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 16 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 16" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 16</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 17 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 17" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 17</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 18 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 18" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 18</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 19 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 19" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 19</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+
+      <!-- بطاقة 20 -->
+      <li>
+        <article class="rounded-2xl border border-gray-100 bg-white card-shadow overflow-hidden">
+          <div class="aspect-[4/3] bg-gray-100 grid place-items-center">
+            <img src="" alt="صورة المعلم 20" class="w-full h-full object-cover"
+                 onerror="this.remove(); this.parentElement.classList.add('bg-gradient-to-br','from-green-50','to-amber-50'); this.parentElement.innerHTML='<div class=&quot;text-sm text-gray-500&quot;>صورة المعلم</div>';" />
+          </div>
+          <div class="p-4">
+            <h3 class="font-extrabold text-lg">اسم المعلم 20</h3>
+            <p class="text-sm text-gray-500 subject">التخصص</p>
+          </div>
+        </article>
+      </li>
+    </ul>
+  </main>
+
+  <footer class="border-t border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <p class="text-sm text-gray-500">© <span id="year"></span> مدارس القلاف الأهلية الثانوية. جميع الحقوق محفوظة.</p>
+      <p class="text-sm text-gray-400">قائمة هيئة التدريس — 20 بطاقة.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
